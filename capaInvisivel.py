@@ -27,6 +27,19 @@ while (cap.isOpened()):
     # Invertendo a imagem por motivo de consistência
     img = np.flip(img, axis=1)
 
+    # Convertendo a cor de BGR para HSV
+
+    # Gerando máscara para detectar a cor vermelha (os valores podem ser alterados)
+
+    # Abrindo e expandindo a imagem onde há a máscara 1 (cor)
+
+    # Selecionando apenas a parte que não possui máscara 1 e salvando-a na máscara 2
+
+    # Mantendo apenas a parte das imagens sem a cor vermelha
+    # (ou qualquer outra cor que você escolher)
+
+    # Mantendo apenas a parte das imagens com a cor vermelha
+
     # Gerando o resultado final
     final_output = img
     output_file.write(img)
